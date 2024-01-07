@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header, Hero, Services, Stats } from '../Components';
+import { Appointment, Header, Hero, Services, Stats, Testimonials } from '../Components';
 
 export default function () {
     return (
@@ -8,6 +8,8 @@ export default function () {
             <Hero />
             <Stats />
             <Services />
+            <Appointment />
+            <Testimonials />
         </>
     )
 }
