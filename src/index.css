@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --tw-content: '';
+}
+
+::before,
+::after {
+    --tw-content: '';
+}
+
+
 body {
     @apply text-secondary font-primary text-[17px] leading-8;
 }
@@ -58,6 +68,160 @@ h6 {
 .input,
 .select {
     @apply w-full rounded-[10px] h-[66px] outline-none border border-[#dbdfdf] text-secondary font-light placeholder:font-light placeholder:text-secondary;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.before\:bg-no-repeat::before {
+    content: var(--tw-content);
+    background-repeat: no-repeat;
+}
+
+.before\:bg-bottom::before {
+    content: var(--tw-content);
+    background-position: bottom;
+}
+
+.before\:bg-contain::before {
+    content: var(--tw-content);
+    background-size: contain;
+}
+
+.before\:bg-quoteLeft::before {
+    content: var(--tw-content);
+    background-image: url('https://raw.githubusercontent.com/jnsoler12012/CureCore-website-GitPage/426c8736dc53647adcd490fec8c407daf0bc3549/src/UI/assets/svg/testimonials/quote-left.svg');
+}
+
+.before\:w-10::before {
+    content: var(--tw-content);
+    width: 2.5rem;
+}
+
+.before\:h-10::before {
+    content: var(--tw-content);
+    height: 2.5rem;
+}
+
+.before\:inline-block::before {
+    content: var(--tw-content);
+    display: inline-block;
+}
+
+.before\:top-0::before {
+    content: var(--tw-content);
+    top: 0px;
+}
+
+
+*,
+::before,
+::after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    /* 1 */
+    border-width: 0;
+    /* 2 */
+    border-style: solid;
+    /* 2 */
+    border-color: #e5e7eb;
+    /* 2 */
+}
+
+.after\:bg-no-repeat::after {
+    content: var(--tw-content);
+    background-repeat: no-repeat;
+}
+
+.after\:bg-bottom::after {
+    content: var(--tw-content);
+    background-position: bottom;
+}
+
+.after\:bg-contain::after {
+    content: var(--tw-content);
+    background-size: contain;
+}
+
+.after\:bg-quoteRight::after {
+    content: var(--tw-content);
+    background-image: url('https://raw.githubusercontent.com/jnsoler12012/CureCore-website-GitPage/426c8736dc53647adcd490fec8c407daf0bc3549/src/UI/assets/svg/testimonials/quote-right.svg');
+}
+
+.after\:w-10::after {
+    content: var(--tw-content);
+    width: 2.5rem;
+}
+
+.after\:h-10::after {
+    content: var(--tw-content);
+    height: 2.5rem;
+}
+
+.after\:inline-block::after {
+    content: var(--tw-content);
+    display: inline-block;
+}
+
+.after\:top-0::after {
+    content: var(--tw-content);
+    top: 0px;
+}
+
+.swiper-pagination {
+    position: sticky !important;
 }
 
 .input {

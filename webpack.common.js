@@ -24,7 +24,7 @@ module.exports = {
             filename: 'index.html',
             template: path.resolve(__dirname, 'src/index.template.ejs'),
             favicon: path.resolve(__dirname, 'src/UI/assets/ico/dashboard.ico'),
-            title: 'custom name',
+            title: 'Cure Core',
             inject: true,
         }),
     ],
