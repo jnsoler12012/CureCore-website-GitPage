@@ -91,7 +91,7 @@ h6 {
 
 .before\:bg-quoteLeft::before {
     content: var(--tw-content);
-    background-image: url(../../assets/icons/testimonials/quote-left.svg);
+    background-image: url('https://raw.githubusercontent.com/jnsoler12012/CureCore-website-GitPage/426c8736dc53647adcd490fec8c407daf0bc3549/src/UI/assets/svg/testimonials/quote-left.svg');
 }
 
 .before\:w-10::before {
@@ -197,7 +197,7 @@ h6 {
 
 .after\:bg-quoteRight::after {
     content: var(--tw-content);
-    background-image: url(../../assets/icons/testimonials/quote-right.svg);
+    background-image: url('https://raw.githubusercontent.com/jnsoler12012/CureCore-website-GitPage/426c8736dc53647adcd490fec8c407daf0bc3549/src/UI/assets/svg/testimonials/quote-right.svg');
 }
 
 .after\:w-10::after {
@@ -208,6 +208,20 @@ h6 {
 .after\:h-10::after {
     content: var(--tw-content);
     height: 2.5rem;
+}
+
+.after\:inline-block::after {
+    content: var(--tw-content);
+    display: inline-block;
+}
+
+.after\:top-0::after {
+    content: var(--tw-content);
+    top: 0px;
+}
+
+.swiper-pagination {
+    position: sticky !important;
 }
 
 .input {
